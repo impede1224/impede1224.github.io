@@ -19,10 +19,11 @@ hero:
     link: "#skills-section"
   bg_title: "Cyber Security"
   info:
-    - num: "2 <strong>+</strong>"
+    - num: "2"
+      #num: "2 <strong>+</strong>"
       value: "Years of <strong>Experience</strong>"
 
-    - num: "4"
+    - num: "3"
       value: "Completed <strong>Projects</strong>"
 
 ### Services [ services ]
@@ -59,41 +60,41 @@ skills:
   column1:
     items:
       - label: "Linux" #0-10 progress in dots
-        text: "Ubuntu/Kali 기반 서버 구축 및 보안 설정, 시스템 관리 경험."
-        value: "50" #0-100 progress in %
+        text: "Ubuntu/Kali 기반 서버 구축 및 보안 설정을 수행하고, 기본적인 명령어 및 기능을 수행할 수 있습니다."
+        value: "80" #0-100 progress in %
 
       - label: "Python" #0-10 progress in dots
-        text: "네트워크 소켓 프로그래밍, 보안 자동화 스크립트 개발 경험."
-        value: "25" #0-100 progress in %
+        text: "기본 문법을 구사할 수 있고, 네트워크 소켓 프로그래밍 경험이 있으며, 보안 자동화 스크립트를 개발할 수 있습니다."
+        value: "75" #0-100 progress in %
 
   column2:
     items:
       - label: "Shell Script" #0-10 progress in dots
-        text: "Bash 기반 시스템 자동화 및 로그 분석 스크립트 작성 경험."
-        value: "45" #0-100 progress in %
+        text: "쉘 프로그래밍의 기본 문법을 구사할 수 있고, Bash 기반 시스템 자동화 스크립트를 작성할 수 있습니다."
+        value: "65" #0-100 progress in %
 
       - label: "iptables" #0-10 progress in dots
-        text: "방화벽 규칙 설정, 패킷 필터링 및 트래픽 제어 실습 경험."
+        text: "iptables 방화벽 규칙을 설정하고, 패킷을 필터링하고 실시간 로그 기록을 남길 수 있습니다."
         value: "70" #0-100 progress in %
 
   column3:
     items:
       - label: "Packet Tracer" #0-10 progress in dots
-        text: "네트워크 토폴로지 설계 및 라우팅, 스위칭 프로토콜 실습 경험."
-        value: "90" #0-100 progress in %
-
-      - label: "Cloud" #0-10 progress in dots
-        text: "클라우드 환경 기반 인프라 구성 및 보안 설정 경험."
+        text: "네트워크 토폴로지 설계 및 라우팅을 설정할 수 있고, 스위치 VLAN 및 ASA 방화벽 실습 경험이 있습니다."
         value: "80" #0-100 progress in %
+
+      - label: "Snort" #0-10 progress in dots
+        text: "Snort를 사용하여 네트워크 상의 특정 패킷 감지 시에 alert 및 block 등을 수행할 수 있습니다."
+        value: "65" #0-100 progress in %
 
 ### Resume [ resume ]
 resume:
   title: "Resume"
-  subtitle: "my <b>Story</b>"
+  subtitle: "my <b>History</b>"
   bg_title: "History"
 
   education:
-    title: "Education"
+    title: "Certifications"
     items:
       - name: "CoderHouse Courses"
         subname: "Backend Programming"
@@ -130,36 +131,36 @@ resume:
 
 
 ### Testimonials [ testimonials ]
-testimonials:
-  title: "Testimonials"
-  subtitle: "what <b>Customers Say</b>"
-  bg_title: "Reviews"
+# testimonials:
+#   title: "Testimonials"
+#   subtitle: "what <b>Customers Say</b>"
+#   bg_title: "Reviews"
 
-  items:
-    - image: "assets/img/testimonials/testi4-2.jpg"
-      name: "Barbara Wilson"
-      role: "CEO Company"
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+#   items:
+#     - image: "assets/img/testimonials/testi4-2.jpg"
+#       name: "Barbara Wilson"
+#       role: "CEO Company"
+#       text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 
-    - image: "assets/img/testimonials/testi4-1.jpg"
-      name: "Charlie Smith"
-      role: "Designer"
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+#     - image: "assets/img/testimonials/testi4-1.jpg"
+#       name: "Charlie Smith"
+#       role: "Designer"
+#       text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 
-    - image: "assets/img/testimonials/testi4-4.jpg"
-      name: "Roy Wang"
-      role: "Manager GYM"
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+#     - image: "assets/img/testimonials/testi4-4.jpg"
+#       name: "Roy Wang"
+#       role: "Manager GYM"
+#       text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 
-    - image: "assets/img/testimonials/testi4-3.jpg"
-      name: "Jennifer Smith"
-      role: "CEO &amp; Founder"
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+#     - image: "assets/img/testimonials/testi4-3.jpg"
+#       name: "Jennifer Smith"
+#       role: "CEO &amp; Founder"
+#       text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 
-    - image: "assets/img/testimonials/testi4-5.jpg"
-      name: "Paul Freeman"
-      role: "Photographer"
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+#     - image: "assets/img/testimonials/testi4-5.jpg"
+#       name: "Paul Freeman"
+#       role: "Photographer"
+#       text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 
 
 ### Pricing [ pricing ]
