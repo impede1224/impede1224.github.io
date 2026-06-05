@@ -1,4 +1,4 @@
----
+<!-- ---
 # preview details
 layout: works-single
 title: Stay Fit
@@ -12,7 +12,7 @@ live_preview: https://bslthemes.com
 full_image: assets/img/works/single1.jpg
 info:
   - label: Year
-    value: 2022
+    value: 9999
 
   - label: Technology
     value: Development, PHP
@@ -37,4 +37,4 @@ video:
   poster: assets/img/blog/blog9.jpg
   id: Gu6z6kIukgg
 
----
+--- -->
